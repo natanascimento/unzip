@@ -7,15 +7,18 @@ def zipando():
     extension = ".zip"
 
     os.chdir(directory)
-
+    
+    #Captando a hora exata
     currentDt = datetime.datetime.now()
 
     for item in os.listdir(directory):
         if item.endswith(extension):
             filename = os.path.abspath(item)
             zip_ref = zipfile.ZipFile(filename)
+            #Extraindo todos os arquivos com base no diretorio
             zip_ref.extractall(directory)
             zip_ref.close()
+            #Removendo os arquivos originais do diretório
             os.remove(filename)
             print("Extração concluido em ", currentDt.strftime("%d-%m-%Y %H:%M:%S"))
 
