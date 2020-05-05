@@ -4,14 +4,14 @@ import schedule, time
 def zipando():
     #Diretório onde os arquivos se encontram
     directory = "C:\\dev\\unzip\\src\\test"
-    ex = ".zip"
+    extension = ".zip"
 
     os.chdir(directory)
 
     currentDt = datetime.datetime.now()
 
     for item in os.listdir(directory):
-        if item.endswith(ex):
+        if item.endswith(extension):
             filename = os.path.abspath(item)
             zip_ref = zipfile.ZipFile(filename)
             zip_ref.extractall(directory)
