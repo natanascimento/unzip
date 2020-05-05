@@ -2,7 +2,8 @@ import os, zipfile, datetime
 import schedule, time
 
 def zipando():
-    directory = "C:\\dev\\CiscoDevNet\\learninglabs\\Meraki\\BIC\\testzip"
+    #Diretório onde os arquivos se encontram
+    directory = "C:\\dev\\unzip\\src\\test"
     ex = ".zip"
 
     os.chdir(directory)
