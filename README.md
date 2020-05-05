@@ -4,7 +4,7 @@
 
 Programa para realizar a descompactação **.zip** de arquivos dentro de um determinado diretório
 
-Caso necessite realizar a descompactação de arquivos **.rar**, será necessário realizar o **extension** dentro do arquivo principal.
+Caso necessite realizar a descompactação de arquivos **.rar**, será necessário realizar a alteração do **extension** dentro do arquivo principal.
 
 ## **Bibliotecas utilizadas 📚**
 Bibliotecas que necessitam instalação
