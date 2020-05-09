@@ -1,29 +1,19 @@
-# UNZIP
+# **UNZIP**
 
 ## **UNZIP usando Python 🐍**
 
-Programa para realizar a descompactação **.zip** de arquivos dentro de um determinado diretório
+Programa para realizar a descompactação **.zip** de todos os arquivos dentro de um determinado diretório.
 
 Caso necessite realizar a descompactação de arquivos **.rar**, será necessário realizar a alteração do **extension** dentro do arquivo principal.
 
 ## **Bibliotecas utilizadas 📚**
-Bibliotecas que necessitam instalação
-### Schedule
+Instalar bibliotecas utilizadas no projeto a partir do requirements.
+### **Requirements 📃**
 ```sh
-pip install schedule
+pip install -r requirements.txt
 ```
-### Zipfile
-```sh
-pip install zipfile37
-```
-### Datetime
-```sh
-pip install datetime
-```
-### Time
-```sh
-pip install time
-```
+
+**Obs:** Para executar o install do requirements navegue até o diretório **src/**.
 
 ## **Mostre o apoio ⭐️**
 Dê um ⭐️ se este projeto ajudou você!
